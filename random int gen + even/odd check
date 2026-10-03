@@ -1,0 +1,9 @@
+import random 
+# generate a random integer between 1 and 100
+# check if the result is an even number
+number = (random.randint(1,100))
+print(random.randint(1,100))
+if number % 2 == 0:
+  print(f"[number] is even.")
+else:
+  print(f"[number] is odd.")
